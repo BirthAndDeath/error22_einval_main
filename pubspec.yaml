@@ -1,5 +1,5 @@
-name: error22_einval_example
-description: "Demonstrates how to use the error22_einval plugin."
+name: error22_einval_main
+description: "main part of error22_einval"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
