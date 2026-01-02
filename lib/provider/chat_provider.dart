@@ -58,14 +58,14 @@ class ChatProvider extends ChangeNotifier {
     _messages.add(userMsg);
 
     // 2. 假装网络请求（留空）
-    await _AiRequest(text);
+    await request(text);
 
     notifyListeners();
   }
 
   /* ============ 网络请求函数留空 ============= */
-  Future<void> _AiRequest(String userText) async {
-    // TODO: 调用模型 API,或者web服务器，返回结果
+  Future<void> request(String userText) async {
+    //例：调用模型 API,或者web服务器，返回结果
 
     error22_einval.sumAsync(2, 3);
     final aiText = 'AI:$userText';
