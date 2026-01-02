@@ -1,6 +1,3 @@
-import "dart:io";
+import 'package:flutter_test/flutter_test.dart';
 
-void main() {
-  print("todo!");
-//todo
-}
+void main() => test('placeholder', () => expect(1 + 1, 2));
